@@ -1,0 +1,16 @@
+{
+   "name" : "清除百度推广信息",
+   "version" : "2.1",
+   "description" : "清除百度推广信息",
+
+   "content_scripts" : [{
+	"matches" : ["http://www.baidu.com/*"],
+	"all_frames" : true,
+	"js" : ["clear.js"]
+   }],
+
+   "icons" : {
+	"16" : "icon16.png"
+   },
+   "manifest_version": 2
+}
